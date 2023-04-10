@@ -1,0 +1,68 @@
+
+body{
+    background-image: radial-gradient(orange, black);
+    background-attachment: fixed;
+    background-repeat:no-repeat;
+}
+h1{
+    font-family:sans-serif;
+    text-align: center;
+    color: white;
+    transition: text-decoration 1.0s;
+}
+h1:hover{
+    text-decoration: underline overline;
+}
+button{
+    color: black;
+    background-color: lightyellow;
+    border-radius: 20px;
+    padding: 20px; 
+    margin: 1px;
+    cursor: pointer;
+    font-family: fantasy, monospace, sans-serif;
+    font-size: 15px;
+    width: 50px;
+    transition: background-color 1.0s;
+    
+}
+.btn:hover{
+    box-shadow: 1px 2px 2px orange;
+    transform: translateY(-2px);
+    background-color: yellow; 
+    
+}
+
+#back{
+    border-radius: 40px;
+    box-shadow:7px 5px 3px yellow;
+    border-style: double;
+    border-left-color:yellow;
+    border-top-color: yellow;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    background-color: black;
+    max-width: 20%;
+    min-height: 60vh;
+    display:flex;
+    flex-direction: column;
+    background-attachment: fixed;  
+    padding: 10px 10px;  
+}
+#back:hover{
+    box-shadow: 7px 5px 3px red;
+}
+.input{
+    border-style: outset;
+    border-color: yellow;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-radius: 15px;
+    box-shadow: 2px 2px 1px yellow;
+    margin: 15px;
+    padding: 5px 40px;
+    font-size: 15px;
+    color: black;
+    font-family: fantasy;
+}
